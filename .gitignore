@@ -1,0 +1,11 @@
+# NEVER commit real statements or generated output
+_spend_tracker/
+*.pdf
+*.csv
+!examples/sample_statements/**
+!tests/fixtures/**
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
